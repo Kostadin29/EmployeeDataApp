@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeDataApp.DataAccess\EmployeeDataApp.DataAccess.csproj" />
+    <ProjectReference Include="..\EmployeeDataApp.Mappers\EmployeeDataApp.Mappers.csproj" />
+    <ProjectReference Include="..\EmployeeDataApp.ViewModels\EmployeeDataApp.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
